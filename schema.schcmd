@@ -1,0 +1,50 @@
+select figure at 1777 870 8 -branches -sn=1
+select figure at 1725 855 8 -branches -sn=1
+add autowire 2704 784 3264 784 8 -sn=1
+add autowire 2688 1072 3264 1072 8 -sn=1
+add autowire 1328 768 1744 1184 8 -sn=1
+select figure at 1532 1217 8 -branches -sn=1
+move instance at 1360 1280 to 784 1184 R0 -keepConn -sn=1
+move instance at 784 1184 to 784 1024 R0 -keepConn -sn=1
+move instance at 784 1024 to 784 944 R0 -keepConn -sn=1
+move instance at 784 944 to 848 960 R0 -keepConn -sn=1
+add autowire 1712 528 736 576 8 -sn=1
+add autowire 1712 464 736 512 8 -sn=1
+add autowire 736 384 256 384 8 -sn=1
+select figure at 331 780 8 -branches -sn=1
+select figure at 486 600 8 -branches -sn=1
+add autowire 736 448 272 448 8 -sn=1
+select figure at 144 177 8 -branches -sn=1
+select all in 144 177 356 840 -branches -enclosed -sn=1
+BeginGroup
+add iomarker 272 704 0 Unknown Unknown -sn=1
+add iomarker 256 384 0 Unknown Unknown -sn=1
+add iomarker 272 448 0 Unknown Unknown -sn=1
+EndGroup
+select figure at 185 386 8 -branches -sn=1
+select figure at 185 386 8 -branches -sn=1
+select figure at 185 386 8 -branches -all -sn=1
+set attr NA|XLXN_33|Name value SW0 -sn=1
+select figure at 204 443 8 -branches -sn=1
+select figure at 204 443 8 -branches -sn=1
+select figure at 204 443 8 -branches -all -sn=1
+set attr NA|XLXN_34|Name value SW1 -sn=1
+select figure at 152 693 8 -branches -sn=1
+select figure at 152 693 8 -branches -all -sn=1
+set attr NA|XLXN_3|Name value ENSW -sn=1
+set attr NA|ENSW|Name value XLXN_3 -sn=1
+set attr NA|XLXN_3|Name value ENSW -sn=1
+set attr NA|ENSW|Name value XLXN_3 -sn=1
+select figure at 196 701 8 -branches -sn=1
+select figure at 196 701 8 -branches -all -sn=1
+set attr NA|XLXN_3|Name value ENSW -sn=1
+BeginGroup
+add iomarker 3264 1072 0 Unknown Unknown -sn=1
+add iomarker 3264 784 0 Unknown Unknown -sn=1
+EndGroup
+select figure at 3282 777 8 -branches -sn=1
+select figure at 3282 777 8 -branches -all -sn=1
+set attr NA|XLXN_32|Name value OUT0 -sn=1
+select figure at 3356 1073 8 -branches -sn=1
+select figure at 3356 1073 8 -branches -all -sn=1
+set attr NA|XLXN_31|Name value OUT1 -sn=1

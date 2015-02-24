@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym had_schema C:/syky/BetterElevator/had_schema.sch C:/syky/BetterElevator/had_schema.sym 

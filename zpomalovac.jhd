@@ -1,0 +1,3 @@
+MODULE zpomalovac
+	SUBMODULE citac5
+		INSTANCE XLXI_1

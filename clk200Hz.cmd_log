@@ -1,0 +1,2 @@
+vhdtdtfi -lib work divider.vhd -prj BetterElevator -o clk200Hz.spl -module clk200Hz -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clk200Hz.spl C:/syky/BetterElevator/clk200Hz.sym 

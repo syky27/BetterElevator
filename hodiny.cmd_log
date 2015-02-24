@@ -1,0 +1,2 @@
+vhdtdtfi -lib work hodiny.vhd -prj BetterElevator -o hodiny.spl -module hodiny -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e hodiny.spl C:/syky/BetterElevator/hodiny.sym 

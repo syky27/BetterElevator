@@ -1,0 +1,2 @@
+vhdtdtfi -lib work direction.vhd -prj BetterElevator -o direction.spl -module direction -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e direction.spl C:/syky/BetterElevator/direction.sym 

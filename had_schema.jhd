@@ -1,0 +1,9 @@
+MODULE had_schema
+	SUBMODULE dekoder
+		INSTANCE XLXI_4
+	SUBMODULE zpomalovac
+		INSTANCE XLXI_5
+	SUBMODULE zpomalovac
+		INSTANCE XLXI_6
+	SUBMODULE zpomalovac
+		INSTANCE XLXI_7
